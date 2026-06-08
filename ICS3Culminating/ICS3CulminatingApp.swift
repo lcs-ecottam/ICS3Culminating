@@ -6,12 +6,17 @@
 //
 
 import SwiftUI
+import SwiftData
 
 @main
 struct ICS3CulminatingApp: App {
     var body: some Scene {
         WindowGroup {
-            HousesListView()
+            MainTabView()
         }
+        .modelContainer(for: GameHistory.self)
     }
 }
+
+
+

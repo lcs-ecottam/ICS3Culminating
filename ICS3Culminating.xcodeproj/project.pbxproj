@@ -14,6 +14,15 @@
 		C7F84F152FCE0BE900777D04 /* HousesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F84F142FCE0BE900777D04 /* HousesListView.swift */; };
 		C7F84F172FCE0BE900777D04 /* HouseItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F84F162FCE0BE900777D04 /* HouseItemView.swift */; };
 		C7F84F192FCE0BE900777D04 /* RELEASE.md in Resources */ = {isa = PBXBuildFile; fileRef = C7F84F182FCE0BE900777D04 /* RELEASE.md */; };
+		C7F84F212FD0662B00777D04 /* MancalaPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F84F202FD0662B00777D04 /* MancalaPlayer.swift */; };
+		C7F84F232FD0662B00777D04 /* MancalaGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F84F222FD0662B00777D04 /* MancalaGame.swift */; };
+		C7F84F252FD0662B00777D04 /* MancalaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F84F242FD0662B00777D04 /* MancalaView.swift */; };
+		C7F84F272FD7432900777D04 /* MancalaBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F84F262FD7432900777D04 /* MancalaBoard.swift */; };
+		C7F84F292FD7433A00777D04 /* MancalaEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F84F282FD7433A00777D04 /* MancalaEngine.swift */; };
+		C7F84F2B2FD7434400777D04 /* MancalaAI.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F84F2A2FD7434400777D04 /* MancalaAI.swift */; };
+		C7F84F2D2FD74BEB00777D04 /* GameHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F84F2C2FD74BEB00777D04 /* GameHistory.swift */; };
+		C7F84F2F2FD74BF700777D04 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F84F2E2FD74BF700777D04 /* HistoryView.swift */; };
+		C7F84F312FD74C0B00777D04 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F84F302FD74C0B00777D04 /* MainTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +34,15 @@
 		C7F84F142FCE0BE900777D04 /* HousesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HousesListView.swift; sourceTree = "<group>"; };
 		C7F84F162FCE0BE900777D04 /* HouseItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseItemView.swift; sourceTree = "<group>"; };
 		C7F84F182FCE0BE900777D04 /* RELEASE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = RELEASE.md; sourceTree = "<group>"; };
+		C7F84F202FD0662B00777D04 /* MancalaPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MancalaPlayer.swift; sourceTree = "<group>"; };
+		C7F84F222FD0662B00777D04 /* MancalaGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MancalaGame.swift; sourceTree = "<group>"; };
+		C7F84F242FD0662B00777D04 /* MancalaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MancalaView.swift; sourceTree = "<group>"; };
+		C7F84F262FD7432900777D04 /* MancalaBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MancalaBoard.swift; sourceTree = "<group>"; };
+		C7F84F282FD7433A00777D04 /* MancalaEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MancalaEngine.swift; sourceTree = "<group>"; };
+		C7F84F2A2FD7434400777D04 /* MancalaAI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MancalaAI.swift; sourceTree = "<group>"; };
+		C7F84F2C2FD74BEB00777D04 /* GameHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameHistory.swift; sourceTree = "<group>"; };
+		C7F84F2E2FD74BF700777D04 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		C7F84F302FD74C0B00777D04 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +81,15 @@
 				C7F84F0D2FCE0BE900777D04 /* Model */,
 				C7F84F102FCE0BE900777D04 /* ViewModels */,
 				C7F84F132FCE0BE900777D04 /* Views */,
+				C7F84F202FD0662B00777D04 /* MancalaPlayer.swift */,
+				C7F84F222FD0662B00777D04 /* MancalaGame.swift */,
+				C7F84F242FD0662B00777D04 /* MancalaView.swift */,
+				C7F84F262FD7432900777D04 /* MancalaBoard.swift */,
+				C7F84F282FD7433A00777D04 /* MancalaEngine.swift */,
+				C7F84F2A2FD7434400777D04 /* MancalaAI.swift */,
+				C7F84F2C2FD74BEB00777D04 /* GameHistory.swift */,
+				C7F84F2E2FD74BF700777D04 /* HistoryView.swift */,
+				C7F84F302FD74C0B00777D04 /* MainTabView.swift */,
 			);
 			path = ICS3Culminating;
 			sourceTree = "<group>";
@@ -167,9 +194,18 @@
 			files = (
 				C7F84F172FCE0BE900777D04 /* HouseItemView.swift in Sources */,
 				C7F84F0F2FCE0BE900777D04 /* House.swift in Sources */,
+				C7F84F272FD7432900777D04 /* MancalaBoard.swift in Sources */,
+				C7F84F292FD7433A00777D04 /* MancalaEngine.swift in Sources */,
+				C7F84F2F2FD74BF700777D04 /* HistoryView.swift in Sources */,
+				C7F84F2D2FD74BEB00777D04 /* GameHistory.swift in Sources */,
+				C7F84F232FD0662B00777D04 /* MancalaGame.swift in Sources */,
+				C7F84F212FD0662B00777D04 /* MancalaPlayer.swift in Sources */,
+				C7F84F252FD0662B00777D04 /* MancalaView.swift in Sources */,
 				C7F84F152FCE0BE900777D04 /* HousesListView.swift in Sources */,
 				C7F84F122FCE0BE900777D04 /* HouseListViewModel.swift in Sources */,
+				C7F84F312FD74C0B00777D04 /* MainTabView.swift in Sources */,
 				C7F84F0A2FCE0BE900777D04 /* ICS3CulminatingApp.swift in Sources */,
+				C7F84F2B2FD7434400777D04 /* MancalaAI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
